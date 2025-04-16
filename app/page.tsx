@@ -38,10 +38,10 @@ export default function Home() {
 
       <h2 className="text-left mt-10">2. Create a quote on Scoro</h2>
       <span className="mt-4">
-        To add services to your quote, we recommend using Scoro’s 'Add Template'
+        {`To add services to your quote, we recommend using Scoro’s 'Add Template'
         feature. Templates come with pre-defined services, including preset
         prices and hours, helping ensure consistency and accuracy in your
-        quotes.
+        quotes.`}
       </span>
       <span>
         Using a template not only streamlines the quoting process but also
@@ -116,8 +116,8 @@ export default function Home() {
         <img src="select-company.png" alt="heading-item" />
       </div>
       <span>
-        You can choose whether or not to add a contact person. This contact will
-        appear as the 'Accounts Payable' on the online form.
+       {` You can choose whether or not to add a contact person. This contact will
+        appear as the 'Accounts Payable' on the online form.`}
       </span>
       <div className="border border-solid border-neutral-200 rounded-xl overflow-hidden shadow my-4">
         <img src="select-person.png" alt="heading-item" />
@@ -138,15 +138,15 @@ export default function Home() {
       </span>
       <video className="my-4" src={"online-quote.mov"} controls></video>
       <span>
-        The extension can be used anywhere, but it works best on the quote
+        {`The extension can be used anywhere, but it works best on the quote
         detail page in Scoro. When you're on that page, the quote ID will be
         automatically pre-filled—so you don’t have to worry about entering the
-        wrong number.
+        wrong number.`}
       </span>
       <span>
-        However, if you're not on the quote detail page, you’ll need to manually
+       {` However, if you're not on the quote detail page, you’ll need to manually
         retrieve and enter the quote ID. The quote number can be found at the
-        end of the URL on the quote detail page.
+        end of the URL on the quote detail page.`}
       </span>
 
       <span>
@@ -273,10 +273,10 @@ export default function Home() {
         <img src="save-url.png" alt="save-url" />
       </div>
       <span>
-        Once you're satisfied, send the link to the customer. They can use the
+       {` Once you're satisfied, send the link to the customer. They can use the
         form to make their selections. Once submitted, your Scoro quote will be
         updated—only the selected services will be saved, and any unselected
-        items will be removed.
+        items will be removed.`}
       </span>
       <span>
         Need to make changes before sending the form? If you amend the quote
