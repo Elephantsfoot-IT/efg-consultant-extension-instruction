@@ -150,8 +150,8 @@ export default function Home() {
       </span>
 
       <span>
-        To generate an online proposal form, first make sure the ID field is
-        filled. Then, choose between a "Full Quote" or an "Exact Quote."
+       {` To generate an online proposal form, first make sure the ID field is
+        filled. Then, choose between a "Full Quote" or an "Exact Quote."`}
       </span>
       <span className="mt-6 font-semibold text-lg">A. Full Quote:</span>
       <span>
@@ -264,10 +264,10 @@ export default function Home() {
         it, allowing you to paste it wherever needed.
       </span>
       <span>
-        The latest URL will also be added to your Scoro project. If you reload
+        {`The latest URL will also be added to your Scoro project. If you reload
         the page, you’ll find it under the "Details" section. Click the link to
         verify that the services are correctly rendered on the online proposal
-        form.
+        form.`}
       </span>
       <div className="border border-solid border-neutral-200 rounded-xl overflow-hidden shadow mt-2">
         <img src="save-url.png" alt="save-url" />
@@ -334,7 +334,7 @@ export default function Home() {
       <span>
         Note: If the customer edits their business name, the original name you
         entered will be saved to a custom field called{" "}
-        <strong>"Original Lead Name."</strong>
+        <strong>{`"Original Lead Name."`}</strong>
       </span>
       <span>
         This ensures you can still recognize the quote, even if the customer
@@ -372,8 +372,8 @@ export default function Home() {
         E. Quote Status
       </span>
       <span>
-        Once the online form is submitted, the quote status will automatically
-        change to "Won", so you will need to filter for won quote when you want to find it on Scoro.
+      {`  Once the online form is submitted, the quote status will automatically
+        change to "Won", so you will need to filter for won quote when you want to find it on Scoro.`}
       </span>
 
       <span className="mt-6 font-semibold text-lg">
