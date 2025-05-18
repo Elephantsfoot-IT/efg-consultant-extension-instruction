@@ -14,7 +14,7 @@ export default function Home() {
         invite, you’ll be able to install the extension.`}
       </span>
       
-      <span><b>IMPORTANT</b>: You must be logged into the Google account that was invited in order to use the extension. If you're not logged in, or if you're using a different account, you won't be authorized to use the extension.</span>
+      <span><b>IMPORTANT</b>{`: You must be logged into the Google account that was invited in order to use the extension. If you're not logged in, or if you're using a different account, you won't be authorized to use the extension.`}</span>
       <span className="mt-6">
         Once you are added to the list please open this{" "}
         <a
