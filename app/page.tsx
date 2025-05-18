@@ -13,15 +13,10 @@ export default function Home() {
         spam folder, so be sure to check there as well. After accepting the
         invite, you’ll be able to install the extension.`}
       </span>
-      <span className="mt-4">
-        Here is an example of the invitation email below:
-      </span>
-      <div className="border border-solid border-neutral-200 rounded-xl overflow-hidden shadow mt-2">
-        <img src="invitation.png" alt="Google extension installation" />
-      </div>
-
+      
+      <span><b>IMPORTANT</b>: You must be logged into the Google account that was invited in order to use the extension. If you're not logged in, or if you're using a different account, you won't be authorized to use the extension.</span>
       <span className="mt-6">
-        Once the invite has been accepted, please open this{" "}
+        Once you are added to the list please open this{" "}
         <a
           className="text-blue-500 hover:underline"
           href="https://chromewebstore.google.com/detail/api-token-generator/oafjdkagoflkicbnemhgefccinlmpidn"
